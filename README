@@ -1,0 +1,13 @@
+In my project, I embarked on a comprehensive analysis of COVID-19-related tweets, aiming to discern sentiments and opinions related to mitigation strategies. The project can be divided into three main phases, each contributing to my holistic understanding of the Twitter discourse surrounding the pandemic.
+
+1. Dataset Creation and Annotation:
+I began by curating and annotating large-scale Twitter datasets specifically focused on COVID-19 discussions. I meticulously annotated these datasets to capture the relevance of each tweet to the context of the pandemic. This annotation process involved labeling tweets as either pro-mitigation, anti-mitigation, or unclear in sentiment, thus establishing a foundation for my subsequent analysis.
+
+2. Bag-of-Words Classifier Implementation:
+Leveraging the annotated dataset, I delved into machine learning techniques to develop a sentiment classifier capable of categorizing tweets into the predefined sentiment categories. To achieve this, I implemented a Bag-of-Words classifier, a fundamental technique in natural language processing. This classifier allowed me to analyze the textual content of tweets and predict whether they exhibited a pro-mitigation, anti-mitigation, or unclear sentiment. By training the classifier on a split dataset, I aimed to ensure robust performance and generalization.
+
+3. Model Evaluation and Advanced Classification:
+With the Bag-of-Words classifier in place, I proceeded to evaluate its accuracy and effectiveness. To perform this assessment, I employed scikit-learn. This enabled me to quantify the model's predictive capabilities and gauge its performance against the annotated dataset. In addition to basic accuracy metrics, I constructed a Pipeline class to facilitate advanced classification tasks, streamlining the process of experimenting with various classification algorithms and preprocessing techniques. This approach allowed me to gain deeper insights into classification methods beyond the initial Bag-of-Words approach.
+
+4. Conclusion 
+In summary, my project centered around creating and annotating specialized COVID-19 tweet datasets, implementing a Bag-of-Words sentiment classifier for multiclass labeling, and thoroughly evaluating the model's accuracy through scikit-learn. By employing advanced techniques like the Pipeline class, I was able to probe into alternative classification strategies and gain nuanced insights into the sentiments expressed within the vast landscape of COVID-19 tweets. This endeavor contributed to a deeper comprehension of public sentiment surrounding pandemic mitigation strategies and underscored the significance of machine learning in analyzing real-time social discourse.
